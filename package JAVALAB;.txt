@@ -1,0 +1,22 @@
+package JAVALAB;
+
+import java.util.Scanner;
+
+public class OPERATORS {
+
+	public static void main(String[] args) {
+		System.out.println("enter two nummbers");
+	    Scanner s=new Scanner(System.in);
+	    int a= s.nextInt();
+	    int b=s.nextInt();
+		//Arithmetic operators
+		System.out.println(a+b );
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+
+	}
+
+}
