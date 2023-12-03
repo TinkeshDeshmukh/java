@@ -1,0 +1,29 @@
+1)
+PROBLEM STATEMENT :
+To perform a program for Math Calculations like max() ,min() ,round(),avg() and abs() using Java class 
+with methods . 
+import java.util.Scanner;
+public class Mathcalculation {
+	public static void main(String[] args) {
+		int a,b,e	;
+		double d,c;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of a");
+		a=sc.nextInt();
+		System.out.println("Enter the value of b");
+		b=sc.nextInt();
+		System.out.println("Enter the value of c");
+		c=sc.nextDouble();
+		System.out.println("Enter the value of d");
+		d=sc.nextDouble();
+		System.out.println("Enter the value of e");
+		e=sc.nextInt();
+		System.out.println("Maximum no is :"+Math.max(a, b));
+		System.out.println("Minimum no is :"+Math.min(a, b));
+		System.out.println("Round no is :"+Math.round(c));
+		System.out.println("Squre root of no is :"+Math.sqrt(e));
+		System.out.println("Absolute no is :"+Math.abs(d));
+	}
+
+}
+
