@@ -1,0 +1,28 @@
+PROBLEM STATEMENT :
+Write a program to declare class Student with data members Roll no.,name, marks different type of constructors.
+class Student{	
+int roll_no;
+String name;
+int english,maths,CAO;
+Student(String name,int roll_no,int english,int maths,int CAO){
+	this.name=name;
+	this.roll_no=roll_no;
+	this.english=english;
+	this.maths=maths;
+	this.CAO=CAO;
+}
+void display() {
+	System.out.println("Name: "+name);
+	System.out.println("Roll no: "+roll_no );
+	System.out.println("Marks of English: "+english);
+	System.out.println("Marks of Maths: "+maths);
+	System.out.println("Marks of CAO: "+CAO);
+}
+}
+public class Constructor {
+	public static void main(String[] args) {
+		Student b=new Student("Krushna",18,89,78,90);
+		b.display();
+	}
+}
+
